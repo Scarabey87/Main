@@ -1,0 +1,38 @@
+body{
+  background-color: #c7e8f0;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  /* располагать элементы по левую сторону, а не растягивать их по умолчанию */
+  align-items: flex-start;
+
+  /* Задаём высоту чисто для демонстрации, это необязательно */
+  height: 400px;
+}
+button{
+  margin: 10px;
+  border-radius: 8px;
+  border-color: grey;
+  width: 200px;
+}
+button:hover{
+  background-color: aquamarine;
+}
+select{
+  width: 200px;
+}
+.formi{
+
+  background-color:coral;
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input{
+  border-radius: 10px;  
+  border: none;
+  padding: 5px;
+}
